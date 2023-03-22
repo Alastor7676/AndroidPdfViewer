@@ -12,4 +12,13 @@ public class testdev {
     public void setCourse_no(int course_no) {
         this.course_no = course_no;
     }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
 }
+
